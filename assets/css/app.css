@@ -108,7 +108,7 @@ STYLESHEET INDEXING
     --h4: 32px;
     --h5: 24px;
     --h6: 20px;
-}
+} 
 
 /*-------------------------
     Reset Styels
@@ -124,11 +124,6 @@ span {
     display: inline-block;
 }
 
-img {
-    width: 100px;
-    height: 100px;
-    vertical-align: middle;
-}
 
 ul.list-style,
 ol.list-style {
@@ -6384,8 +6379,28 @@ Pagination
 
 @media only screen and (max-width: 991px) {
     .axil-header .header-navbar .header-logo img {
-        width: 150px;
+        width: 200px;
+        height: 100px;
     }
+}
+.header-logo img {
+    width: 200px ;
+    height: 100px;
+    vertical-align: middle;
+}
+.mobile-nav-logo img {
+    height: 50%;
+    width: 50%;
+} 
+.trading img{
+    width: 200px;
+    height: 100px;
+}
+
+img {
+    width: 100px ;
+    height: 100px;
+    vertical-align: middle;
 }
 
 .axil-header .header-navbar .header-main-nav {
@@ -7344,10 +7359,7 @@ Pagination
     }
 }
 
-.mobile-nav-header .mobile-nav-logo {
-    width: 150px;
-    line-height: 1;
-}
+
 
 .mobile-nav-header .mobile-nav-logo .dark-mode {
     display: none;
